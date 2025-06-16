@@ -1,9 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: 'class',
   theme: {
@@ -20,22 +19,40 @@ module.exports = {
           700: '#0369a1',
           800: '#075985',
           900: '#0c4a6e',
-          950: '#082f49',
         },
+        secondary: {
+          50: '#f5f3ff',
+          100: '#ede9fe',
+          200: '#ddd6fe',
+          300: '#c4b5fd',
+          400: '#a78bfa',
+          500: '#8b5cf6',
+          600: '#7c3aed',
+          700: '#6d28d9',
+          800: '#5b21b6',
+          900: '#4c1d95',
+        }
+      },
+      fontFamily: {
+        sans: ['Inter var', 'sans-serif'],
       },
       animation: {
-        'gradient': 'gradient 8s linear infinite',
+        'fade-in': 'fadeIn 0.5s ease-in',
+        'fade-in-up': 'fadeInUp 0.5s ease-out',
+        'slide-in-left': 'slideInLeft 0.5s ease-out',
       },
       keyframes: {
-        gradient: {
-          '0%, 100%': {
-            'background-size': '200% 200%',
-            'background-position': 'left center'
-          },
-          '50%': {
-            'background-size': '200% 200%',
-            'background-position': 'right center'
-          },
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        fadeInUp: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        slideInLeft: {
+          '0%': { opacity: '0', transform: 'translateX(-20px)' },
+          '100%': { opacity: '1', transform: 'translateX(0)' },
         },
       },
     },
