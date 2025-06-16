@@ -1,65 +1,71 @@
-# MyPortfolio 🚀
+# My Portfolio
 
-Welcome to my personal portfolio website! This repository showcases my skills, projects, and professional journey.
+A modern, responsive personal portfolio website built with React and TypeScript.
 
-## 🌟 Features
+## 🚀 Features
 
 - Modern and responsive design
-- Project showcase
-- Skills and expertise section
-- Contact information
-- Professional experience
-- Education background
+- Dark/Light theme support
+- Sections for:
+  - About Me
+  - Work Experience
+  - Education
+  - Projects
+  - Technical Skills
+  - Certificates
+  - Blog Posts
+  - Testimonials
+  - Contact Information
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
 - React.js
-- Next.js
+- TypeScript
 - Tailwind CSS
+- HTML5/CSS3
+- JavaScript/jQuery
+- Python
+- C/C++
+- PHP Laravel
+- Flutter/React Native
+- AWS
+- Cisco
 
-## 🚀 Getting Started
+## 🏃‍♂️ Running Locally
 
-To run this project locally:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KOSALSENSOK096/MyPortfolio.git
+   ```
 
-```bash
-# Clone the repository
-git clone https://github.com/KOSALSENSOK096/MyPortfolio.git
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-# Navigate to project directory
-cd MyPortfolio
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-# Install dependencies
-npm install
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-# Run the development server
-npm run dev
-```
+## 📝 License
 
-## 📂 Project Structure
+This project is open source and available under the [MIT License](LICENSE).
 
-```
-MyPortfolio/
-├── components/     # React components
-├── pages/         # Next.js pages
-├── public/        # Static assets
-├── styles/        # CSS styles
-└── utils/         # Utility functions
-```
+## 👤 Author
+
+**KOSAL SENSOK**
+- Portfolio: [Your Portfolio URL]
+- GitHub: [@KOSALSENSOK096](https://github.com/KOSALSENSOK096)
 
 ## 🤝 Contributing
 
 Feel free to fork this repository and submit pull requests. All contributions are welcome!
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 📫 Contact
 
-- GitHub: [@KOSALSENSOK096](https://github.com/KOSALSENSOK096)
 - LinkedIn: [Your LinkedIn]
 - Email: [Your Email]
 
