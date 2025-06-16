@@ -200,20 +200,17 @@ const sampleSkills: Skill[] = [
 ];
 
 const sampleTechStack: TechStackItem[] = [
-    { name: 'Java', icon: <PlaceholderIcon />, category: 'Backend' },
-    { name: 'Spring Boot', icon: <PlaceholderIcon />, category: 'Backend' },
     { name: 'Python', icon: <PlaceholderIcon />, category: 'Backend' },
-    { name: 'Node.js', icon: <PlaceholderIcon />, category: 'Backend' },
-    { name: 'Go', icon: <PlaceholderIcon />, category: 'Backend' },
-    { name: 'React', icon: <PlaceholderIcon />, category: 'Frontend' },
-    { name: 'Next.js', icon: <PlaceholderIcon />, category: 'Frontend' },
-    { name: 'Angular', icon: <PlaceholderIcon />, category: 'Frontend' },
-    { name: 'PostgreSQL', icon: <PlaceholderIcon />, category: 'Database' },
-    { name: 'MongoDB', icon: <PlaceholderIcon />, category: 'Database' },
-    { name: 'Docker', icon: <PlaceholderIcon />, category: 'DevOps' },
-    { name: 'Kubernetes', icon: <PlaceholderIcon />, category: 'DevOps' },
+    { name: 'HTML,CSS Bootstrap', icon: <PlaceholderIcon />, category: 'Frontend' },
+    { name: 'Java Script, jQuery', icon: <PlaceholderIcon />, category: 'Frontend' },
+    { name: 'C Programming, C++', icon: <PlaceholderIcon />, category: 'Backend' },
+    { name: 'Basic Python OOP', icon: <PlaceholderIcon />, category: 'Backend' },
+    { name: 'Flutter(android,ios)', icon: <PlaceholderIcon />, category: 'Frontend' },
+    { name: 'React Native', icon: <PlaceholderIcon />, category: 'Frontend' },
+    { name: 'PHP Laravel', icon: <PlaceholderIcon />, category: 'Backend' },
+    { name: 'Cisco', icon: <PlaceholderIcon />, category: 'DevOps' },
     { name: 'AWS', icon: <PlaceholderIcon />, category: 'DevOps' },
-    { name: 'Figma', icon: <PlaceholderIcon />, category: 'Design' },
+    { name: 'Team Work', icon: <PlaceholderIcon />, category: 'Other' }
 ];
 
 const sampleBlogPosts: BlogPostMapping[] = [
